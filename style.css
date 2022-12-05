@@ -103,14 +103,36 @@ a:hover{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     color: white;
 }
 .photoDeProfil img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     box-shadow: 5px 5px 15px #555;
+}
+
+
+.social{
+    display: inline-flex;
+    flex-direction: column;
+    
+    justify-content:space-around;
+    margin: 10px auto 0px 20px;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.social > a:hover{
+    padding-bottom: 0px;
+    border-bottom: 0px solid white;
+    transition: 0s;
+    
 }
 
 .containerbox{
@@ -122,7 +144,7 @@ a:hover{
     
     background-color: #00184d00;
     
-    margin: 50px 5% 0 5%;
+    margin: 0px 5% 0 5%;
     padding: 20px;
 
     
@@ -482,8 +504,8 @@ Activator du Morpion
 
 .btnClose{
     position: absolute;
-    top: 10%;
-    right: 8%;
+    top: 6%;
+    right: 6%;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.521);
     
@@ -605,6 +627,13 @@ Activator du Morpion
         width: 100%;
         margin-top: 100px;
         padding-left: 0px;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        margin: 10px auto 0px auto;
     }
 
     li {

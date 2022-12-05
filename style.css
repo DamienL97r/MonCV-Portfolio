@@ -436,8 +436,7 @@ Activator du Morpion
 
     position: relative;
     background-color: rgb(77, 71, 167);
-    padding: 25px;
-    padding-bottom: 5%;
+    padding: 5% 10% 5% 10%;
     justify-content: center;
     display: block;
     height: fit-content;
@@ -455,8 +454,8 @@ Activator du Morpion
 
 .btnClose{
     position: absolute;
-    top: 12px;
-    right: 22px;
+    top: 10%;
+    right: 8%;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.521);
     

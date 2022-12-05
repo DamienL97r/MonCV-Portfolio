@@ -118,7 +118,7 @@ a:hover{
 .social{
     display: inline-flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.055);
+    
     
     
     justify-content:space-around;
@@ -127,7 +127,7 @@ a:hover{
 .social img{
     width: 40px;
     height: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.596);
+    
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.425);
     

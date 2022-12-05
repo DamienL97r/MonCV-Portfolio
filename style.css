@@ -59,7 +59,7 @@ a:hover{
 }
 
 .background{
-    background-image: url(img/background\ image2.png);
+    background-image: url(background\ image2.png);
 
     background-repeat: no-repeat;
     background-size: cover;
